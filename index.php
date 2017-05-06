@@ -5,8 +5,9 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <link rel="stylesheet" href="style.css" />
  </head>
- <body>
-  <img src="images/encabezado.jpg">
+ <body style="background-color:#FF0000;">
+  <img src="images/encabezado.jpg" align="middle">
+  <font color="Black">
   <table>
    <tr>
       <td>Nombre</td>
@@ -41,6 +42,7 @@
   $conn->close();
  ?> 
  </table>
-  <img src="images/piepagina.jpg">
+    </font>
+  <img src="images/piepagina.jpg" align="middle">
  </body>
  </html>
