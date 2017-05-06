@@ -6,7 +6,9 @@
   <link rel="stylesheet" href="style.css" />
  </head>
  <body>
-  <img src="images/encabezado.jpg" align="middle">
+  <div align="middle">
+  <img src="images/encabezado.jpg">
+  </div>
   <table>
    <tr>
       <td>Nombre</td>
@@ -41,6 +43,8 @@
   $conn->close();
  ?> 
  </table>
-  <img src="images/piepagina.jpg" align="middle">
+  <div align="middle">
+  <img src="images/piepagina.jpg">
+   </div>
  </body>
  </html>
